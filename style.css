@@ -1,0 +1,17 @@
+/* .test {
+    background-color: chartreuse;
+    color: chocolate;
+} */
+.super {
+  background-color: chartreuse;
+}
+
+div {
+  background-color: royalblue;
+}
+div p {
+  color: orange;
+}
+div :hover {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */

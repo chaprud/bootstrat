@@ -1,0 +1,24 @@
+/* .test {
+    background-color: chartreuse;
+    color: chocolate;
+} */
+
+// on peut importer des fichiers dans des fichiers
+
+@import "./variables.scss"; 
+
+.super {
+    // on utilise la variable fond qui se trouve dans le fichier importé
+    background-color: $fond;
+}
+
+//NESTING (imbriquer les éléments les uns dans les autres)
+div {
+    background-color: royalblue;
+    p {
+        color: orange;
+    }
+    :hover {
+        background-color: green;
+    }
+}
