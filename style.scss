@@ -1,0 +1,34 @@
+$fond: green;
+$texte: black;
+$titre:blue; 
+$page: rgb(233, 224, 176);
+
+body {
+    background-color: $page;
+}
+
+h1 {
+    color: $titre; 
+    text-align: center;
+}
+
+p {
+    background-color: $fond;
+    color: $texte;
+}
+
+div {
+    p {
+        color:beige;
+        background-color: navy;
+    }
+    img {
+        border: 10px black solid;
+    }
+
+    h3 {
+        text-decoration: underline;
+        color: $titre;
+        text-align: center;
+    }
+}

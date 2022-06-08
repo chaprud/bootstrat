@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(233, 224, 176);
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  background-color: green;
+  color: black;
+}
+
+div p {
+  color: beige;
+  background-color: navy;
+}
+div img {
+  border: 10px black solid;
+}
+div h3 {
+  text-decoration: underline;
+  color: blue;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
