@@ -1,0 +1,38 @@
+@mixin  toto($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+    
+}
+
+
+.squ {
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    background-color: lightskyblue;
+    @include toto(rotate(45deg));
+}
+
+/* p {
+    @include toto(rotate(180deg));
+} */
+
+.text-box {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0 10%;
+    border: 3px solid yellow;
+}
+
+.info {
+    background-color: lightgreen;
+    @extend .text-box;
+}
+
+.warning {
+    background-color: red;
+    @extend .text-box;
+}
+
+
